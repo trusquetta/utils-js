@@ -3,15 +3,11 @@
  * @param {string} text
  * @returns {string}
  */
-export function camelToKebab(text) {
-	return text.replaceAll(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
-}
-
+export function camelToKebab(text: string): string;
 /**
  * kebabケースのテキストをcamelケースに変換
  * @param {string} text
  * @returns {string}
  */
-export function kebabToCamel(text) {
-	return text.replaceAll(/-([a-z])/g, (_, c) => c.toUpperCase());
-}
+export function kebabToCamel(text: string): string;
+//# sourceMappingURL=index.d.ts.map
