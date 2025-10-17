@@ -1,9 +1,9 @@
 {
-  "name": "template-node-jsdoc-package",
+  "name": "@trusquetta/utils-js",
   "version": "1.0.0",
-  "description": "javascript and JSDoc package Template Repository",
-  "author": "DependaHub",
-  "license": "MIT",
+  "description": "",
+  "author": "trusquetta",
+  "license": "UNLICENSED",
   "main": "src/index.js",
   "type": "module",
   "types": "@types/index.d.ts",
